@@ -4,6 +4,11 @@
    white: FEFFFE [secondary]
 */
 
+
+*, *:before, *:after {
+   box-sizing: border-box;
+ }
+
 h1 {
    font-family: 'Short Stack', cursive;
 }
@@ -12,35 +17,55 @@ p, h2 {
    font-family: 'Open Sans', sans-serif;
 }
 
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
 div.img {
    text-align: center;
 }
+.main-nav {
+   width: 100%;
+   background: #fefffe;
+   min-height: 50px;
+   padding: 10px;
+   position: fixed;
+   text-align: center;
+ }
 
-div.first-page {
+div.first-third {
    background-color: #B60202;
    color:#fefffe;
+   display: inline-block;
+   position: absolute;
+   width: 100vw;
+   height: 80vh;
+   padding: 0px;
+   margin-left: 0px;
 }
 
-div.first-page h1 {
+div.first-third h1 {
    color: #fefffe;
    font-family: 'Short Stack', cursive;
    text-align: center;
    padding: 0.75rem ;
 }
 
-div.first-page h2 {
+div.first-third h2 {
    font-weight: bold;
    text-align: center;
-   font-size: 2vh;
+   font-size: 16px;
    text-transform: lowercase;
 }
 
-div.first-page p {
+div.first-third p {
    color: #fefffe;
    font-family: 'Open Sans', sans-serif;
 }
 
-div.body {
+div.two-thirds {
    background-color: #fefffe;
    color: #B60202;
+   margin: 0;
 }

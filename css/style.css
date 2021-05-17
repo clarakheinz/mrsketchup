@@ -3,3 +3,44 @@
    teal: E5FCF5 or B3DEC1 [accent]
    white: FEFFFE [secondary]
 */
+
+h1 {
+   font-family: 'Short Stack', cursive;
+}
+
+p, h2 {
+   font-family: 'Open Sans', sans-serif;
+}
+
+div.img {
+   text-align: center;
+}
+
+div.first-page {
+   background-color: #B60202;
+   color:#fefffe;
+}
+
+div.first-page h1 {
+   color: #fefffe;
+   font-family: 'Short Stack', cursive;
+   text-align: center;
+   padding: 0.75rem ;
+}
+
+div.first-page h2 {
+   font-weight: bold;
+   text-align: center;
+   font-size: 2vh;
+   text-transform: lowercase;
+}
+
+div.first-page p {
+   color: #fefffe;
+   font-family: 'Open Sans', sans-serif;
+}
+
+div.body {
+   background-color: #fefffe;
+   color: #B60202;
+}

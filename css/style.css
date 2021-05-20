@@ -48,11 +48,10 @@ div.first-third {
 }
 
 div.first-third h1 {
-   color: #fefffe;
    text-align: center;
    padding: 0.75rem ;
    letter-spacing: -5px;
-   text-shadow: -5px 1px 3px rgba(0,0,0,0.4);
+   text-shadow: -5px 1px 3px rgba(0,0,0,0.3);
 }
 
 div.first-third h2 {
@@ -63,6 +62,7 @@ div.first-third h2 {
 
 div.first-third p {
    color: #fefffe;
+   padding: 25px 10px;
 }
 
 div.two-thirds {
@@ -70,3 +70,5 @@ div.two-thirds {
    color: #B60202;
    margin: 0;
 }
+
+/* || Media Queries */

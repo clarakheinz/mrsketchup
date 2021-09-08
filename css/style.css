@@ -1,6 +1,6 @@
 /* color palette to test:
    red: B60202 [main]
-   teal: E5FCF5 or B3DEC1 [accent]
+   green/teal: E5FCF5 or B3DEC1 [accent]
    white: FEFFFE [secondary]
 */
 
@@ -9,11 +9,11 @@
    box-sizing: border-box;
  }
 
- html {
+html {
     font-size: 20px;
  }
 
- body {
+body {
    margin: 0;
    padding: 0;
    display: flex;
@@ -22,14 +22,11 @@
    font: 300 100%/1.5 'Open Sans', sans-serif;
  }
 
- h1 {
+h1 {
    font: 700 300%/1.1 'Short Stack', cursive;
 }
 
  /* || Selector Styles */
-div.img {
-   text-align: center;
-}
 
 .main-nav {
    width: 100%;
@@ -51,40 +48,59 @@ div.img {
     flex-grow: 1;
     font-size: .75em;
     padding: 10px 15px;
+    color: #808080
  }
 
-div {
+ .main-nav a:hover{
+    background-color: #b3dec1;
+ }
+
+div section {
   flex: 1;
+  flex-grow: 1;
 }
 
-div.first-third {
+.about-content {
    background-color: #B60202;
    color:#fefffe;
    width: 100vw;
-   height: 75vh;
 }
 
-div.first-third h1 {
+.about h1 {
    text-align: center;
    padding: 0.75rem ;
    letter-spacing: -5px;
    text-shadow: -5px 1px 3px rgba(0,0,0,0.3);
 }
 
-div.first-third h2 {
+.about h2 {
    font-size: 22px;
    text-align: center;
    text-transform: lowercase;
 }
 
-div.first-third p {
+.about p {
    color: #fefffe;
    padding: 25px 10px;
    width: 70%;
    margin: 0 auto;
 }
+.headshot {
+   text-align: center;
+}
+.headshot img {
+   max-width: 200px;
+   border-radius: 200px;
+   border: #fefffe 2px solid;
+   box-shadow: -5px 1px 3px rgba(0,0,0,0.3);
 
-div.two-thirds {
+}
+
+.headshot img:hover {
+   filter: grayscale(100%);
+}
+
+section.portfolio-content section.resume-content {
    background-color: #fefffe;
    color: #B60202;
 }
